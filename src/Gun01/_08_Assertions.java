@@ -38,4 +38,27 @@ public class _08_Assertions {
         Assert.assertTrue(s1==s2,"Oluşan la beklenen aynı değil");
     }
 
+    @Test
+    public void NullOrnek(){
+        String s=null;
+
+        Assert.assertNull(s,"Beklenen değer Null değil");
+    }
+
+    @Test
+    public void FalseOrnek(){
+        int s1=5;
+        int s2=5;
+
+        Assert.assertFalse(s1==s2,"Sonuç false değil");
+    }
+
+    @Test
+    public void DirectFail(){
+        int a=56;
+
+        if (a>56)
+            Assert.fail(); // Direct fail
+    }
+
 }
