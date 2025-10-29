@@ -21,7 +21,7 @@ public class _01_Giris {
 //          DriverKapat();
 //      }
 
-
+    // alafabetik sırada çalıştı
     @Test
     public void DriverIslemleriniYap()
     {
