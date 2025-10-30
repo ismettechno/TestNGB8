@@ -39,10 +39,10 @@ public class _04_Annotations {
 
 
     @Test
-    public void Intro06_Test1(){ System.out.println("_06_Intro Test 1"); }
+    public void _04_Annotations_Test1(){ System.out.println("_04_Annotations Test 1"); }
 
     @Test
-    public void Intro06_Test2(){ System.out.println("_06_Intro Test 2"); }
+    public void _04_Annotations_Test2(){ System.out.println("_04_Annotations Test 2"); }
 
 
 
