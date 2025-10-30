@@ -12,6 +12,7 @@ public class _01_SubscribeNewsLetter extends BaseDriver {
     Senaryo
   1- Siteyi açınız.
   2- Newsletter  Subscribe işlemini abone olunuz(YES)  , işlemin başarılı olduğunu kontrol ediniz.
+  3- Ayrı bir test ile Newsletter  Subscribe işlemini abonelikten çıkınız(NO)
      */
 
     @Test
@@ -20,6 +21,20 @@ public class _01_SubscribeNewsLetter extends BaseDriver {
         newsLetterLink.click();
 
         WebElement subscribeYes=driver.findElement(By.xpath("//input[@type='radio' and @value='1']"));
+        subscribeYes.click();
+
+        WebElement continueButton=driver.findElement(By.xpath("//*[@value='Continue']"));
+        continueButton.click();
+
+        WebTool.SuccessMessageValidation();
+    }
+
+    @Test
+    public void SubscribeFunctionNo() {
+        WebElement newsLetterLink=driver.findElement(By.linkText("Newsletter"));
+        newsLetterLink.click();
+
+        WebElement subscribeYes=driver.findElement(By.xpath("//input[@type='radio' and @value='0']"));
         subscribeYes.click();
 
         WebElement continueButton=driver.findElement(By.xpath("//*[@value='Continue']"));
