@@ -26,7 +26,7 @@ public class _02_Dependency {
         System.out.println("StopCar");
     }
 
-    //Dependency (bağımlılık):Bir testin diğer bir testin sonucuna veya
+//Dependency (bağımlılık):Bir testin diğer bir testin sonucuna veya
 //belirli bir duruma bağlı olduğu durumları ifade eder.
 //Örneğin, bir testin çalışabilmesi için önce başka bir testin başarılı
 //bir şekilde tamamlanması gerekebilir. Bu tür senaryolarda TestNG'nin Dependency özelliği devreye girer.
