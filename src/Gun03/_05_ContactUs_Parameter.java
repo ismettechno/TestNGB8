@@ -10,6 +10,9 @@ import org.testng.annotations.Test;
 
 public class _05_ContactUs_Parameter extends BaseDriver {
 
+ //    @Parameters({"mesaj","mesaj2"})// xml deki parametre adı aynı olmak zorunda
+//    void contactUs(String gelenMesaj,String m2){
+
     @Test
     @Parameters("mesaj")
     public void contactUs(String gelenMesaj){
