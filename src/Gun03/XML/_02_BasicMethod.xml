@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="mySuit">
+
+    <test name="test1">
+        <classes>
+            <class name="Gun03._02_Intro">
+
+                <methods>
+                    <include name="Intro02_Test1"></include>
+                    <!-- Çalışmasını istediğim metodları yazıyorum-->
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+
+</suite>
