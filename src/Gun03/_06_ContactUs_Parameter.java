@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class _05_ContactUs_Parameter extends BaseDriver {
+public class _06_ContactUs_Parameter extends BaseDriver {
 
  //    @Parameters({"mesaj","mesaj2"})// xml deki parametre adı aynı olmak zorunda
 //    void contactUs(String gelenMesaj,String m2){

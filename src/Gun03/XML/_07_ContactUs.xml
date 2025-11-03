@@ -4,7 +4,7 @@
     <test name="test1">
         <parameter name="mesaj" value="Merhaba testing dünyası, biz geldik"></parameter>
         <classes>
-            <class name="Gun03._05_ContactUs_Parameter"></class>
+            <class name="Gun03._06_ContactUs_Parameter"></class>
         </classes>
     </test>
 </suite>
