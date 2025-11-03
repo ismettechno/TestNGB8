@@ -50,6 +50,7 @@ public class BaseDriver {
         WebElement loginBtn=driver.findElement(By.xpath("//*[@value='Login']"));
         loginBtn.click();
 
+
         Assert.assertTrue(driver.getTitle().equals("My Account"), "Login olunamadı");
         System.out.println("Login Testi Bitti");
     }
